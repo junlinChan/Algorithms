@@ -5,12 +5,12 @@ public class BubbleSort{
     * */
 
     public void sort(int[] arr) {
-        SwapUtil swapUtils = new SwapUtil();
+        SortsUtils sortsUtils = new SortsUtils();
         for (int i = 0; i < arr.length; i ++) {
             boolean swaped = false;
             for (int j = 0; j < arr.length - i - 1; j++) {
                 if (arr[j] > arr[j + 1]) {
-                    swapUtils.swap(arr, j, j + 1);
+                    sortsUtils.swap(arr, j, j + 1);
                     swaped = true;
                 }
             }
@@ -24,9 +24,9 @@ public class BubbleSort{
     public static void main(String[] args) {
         int[] arr = {2, 4, 1, 3, 6, 5};
         BubbleSort bubbleSort = new BubbleSort();
-        DisplayUtil ds = new DisplayUtil();
+        SortsUtils sortsUtils = new SortsUtils();
         bubbleSort.sort(arr);
-        ds.display(arr);
+        sortsUtils.display(arr);
 
     }
 }

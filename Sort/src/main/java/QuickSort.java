@@ -5,7 +5,7 @@ public class QuickSort{
     * */
 
     public void sort(int[] arr, int l, int r) {
-        SwapUtil swapUtils = new SwapUtil();
+        SortsUtils swapUtils = new SortsUtils();
         int i = l - 1, j = r + 1, x = arr[l + r >> 1];
         if (l >= r)
             return;
@@ -23,9 +23,9 @@ public class QuickSort{
     public static void main(String[] args) {
         int[] arr = {2, 4, 1, 3, 6, 5};
         QuickSort quickSort = new QuickSort();
-        DisplayUtil ds = new DisplayUtil();
+        SortsUtils sortsUtils = new SortsUtils();
         quickSort.sort(arr, 0, arr.length - 1);
-        ds.display(arr);
+        sortsUtils.display(arr);
     }
 
 }

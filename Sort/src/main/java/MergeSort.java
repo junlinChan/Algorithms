@@ -26,9 +26,9 @@ public class MergeSort {
     public static void main(String[] args) {
         int[] arr = {2, 4, 1, 3, 6, 5};
         MergeSort mergeSort = new MergeSort();
-        DisplayUtil ds = new DisplayUtil();
+        SortsUtils sortsUtils = new SortsUtils();
         mergeSort.sort(arr, 0, arr.length - 1);
-        ds.display(arr);
+        sortsUtils.display(arr);
     }
 
 }
