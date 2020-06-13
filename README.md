@@ -25,4 +25,4 @@ $ git clone https://github.com/junlinChan/Algorithms.git
 
 ## 使用许可
 
-[MIT](LICENSE) © Richard Littauer
+[MIT](LICENSE) © Elton Chen
