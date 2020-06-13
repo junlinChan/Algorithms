@@ -26,8 +26,7 @@ public class MergeSort {
     public static void main(String[] args) {
         SortsUtils sortsUtils = new SortsUtils();
         int[] arr = {2, 4, 1, 3, 6, 5};
-        System.out.print("未排序前数组元素为：");
-        sortsUtils.display(arr);
+        sortsUtils.displayOrigin(arr);
         MergeSort mergeSort = new MergeSort();
         mergeSort.sort(arr, 0, arr.length - 1);
         System.out.print("归并排序后数组元素为：");
