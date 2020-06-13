@@ -21,10 +21,13 @@ public class QuickSort{
 
 
     public static void main(String[] args) {
-        int[] arr = {2, 4, 1, 3, 6, 5};
-        QuickSort quickSort = new QuickSort();
         SortsUtils sortsUtils = new SortsUtils();
+        int[] arr = {2, 4, 1, 3, 6, 5};
+        System.out.print("未排序前数组元素为：");
+        sortsUtils.display(arr);
+        QuickSort quickSort = new QuickSort();
         quickSort.sort(arr, 0, arr.length - 1);
+        System.out.print("快速排序后数组元素为：");
         sortsUtils.display(arr);
     }
 

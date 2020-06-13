@@ -18,10 +18,13 @@ public class SelectionSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = {2, 4, 1, 3, 6, 5};
-        SelectionSort selectionSort = new SelectionSort();
         SortsUtils sortsUtils = new SortsUtils();
+        int[] arr = {2, 4, 1, 3, 6, 5};
+        System.out.print("未排序前数组元素为：");
+        sortsUtils.display(arr);
+        SelectionSort selectionSort = new SelectionSort();
         selectionSort.sort(arr);
+        System.out.print("选择排序后数组元素为：");
         sortsUtils.display(arr);
     }
 }

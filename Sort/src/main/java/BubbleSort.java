@@ -22,10 +22,13 @@ public class BubbleSort{
     }
 
     public static void main(String[] args) {
-        int[] arr = {2, 4, 1, 3, 6, 5};
-        BubbleSort bubbleSort = new BubbleSort();
         SortsUtils sortsUtils = new SortsUtils();
+        int[] arr = {2, 4, 1, 3, 6, 5};
+        System.out.print("未排序前数组元素为：");
+        sortsUtils.display(arr);
+        BubbleSort bubbleSort = new BubbleSort();
         bubbleSort.sort(arr);
+        System.out.print("冒泡排序后数组元素为：");
         sortsUtils.display(arr);
 
     }
