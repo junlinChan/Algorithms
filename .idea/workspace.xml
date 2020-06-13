@@ -331,7 +331,16 @@
       <change afterPath="D:/untitled/Client/core/info_collection.py" afterDir="false" />
       <change afterPath="D:/untitled/Client/plugins/collect_linux_info.py" afterDir="false" />
       <change afterPath="D:/untitled/Client/plugins/collect_windows_info.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sort/src/main/java/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datastructures/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/src/main/java/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/src/main/java/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/src/main/java/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/src/main/java/SelectionSort.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PracticeDemo/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PracticeDemo/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PracticeDemo/src/StringDemo/StringDemo.java" afterDir="false" />
@@ -3787,18 +3796,14 @@
       <change afterPath="$PROJECT_DIR$/../wj/src/main/resources/static/static/js/vendor.6d388d31270eaab006d9.js.map" afterDir="false" />
       <change afterPath="D:/work/wj-vue/src/components/Login.vue" afterDir="false" />
       <change afterPath="D:/work/wj-vue/src/components/home/AppIndex.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sort/src/main/java/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/src/main/java/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sort/src/main/java/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/src/main/java/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sort/src/main/java/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/src/main/java/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sort/src/main/java/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/src/main/java/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sort/src/main/java/SortsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/src/main/java/SortsUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sort/target/classes/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/target/classes/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sort/target/classes/SortsUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/target/classes/SortsUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Sort/target/" />
+    <ignored path="$PROJECT_DIR$/Datastructures/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -3807,11 +3812,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sort/pom.xml">
           <provider selected="true" editor-type-id="text-editor" />
@@ -3840,7 +3840,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="567">
-                <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+                <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
               </first_editor>
               <second_editor />
             </state>
@@ -3860,16 +3860,30 @@
         <entry file="file://$PROJECT_DIR$/Sort/src/main/java/SelectionSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="462">
-              <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sort/src/main/java/InsertionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            <state relative-caret-position="260">
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Datastructures/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -3878,7 +3892,7 @@
         <entry file="file://$PROJECT_DIR$/Sort/src/main/java/SortsUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="428">
-              <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -3914,6 +3928,7 @@
         <option value="$PROJECT_DIR$/Sort/src/main/java/QuickSort.java" />
         <option value="$PROJECT_DIR$/Sort/src/main/java/SelectionSort.java" />
         <option value="$PROJECT_DIR$/Sort/src/main/java/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -3947,32 +3962,6 @@
               <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Sort" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Sort" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Sort" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Sort" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -3983,7 +3972,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592010863848" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592011239102" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -4082,12 +4071,12 @@
       <option name="presentableId" value="Default" />
       <updated>1591974888332</updated>
       <workItem from="1591974890588" duration="7290000" />
-      <workItem from="1592009030277" duration="1655000" />
+      <workItem from="1592009030277" duration="2200000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8945000" />
+    <option name="totallyTimeSpent" value="9490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -4130,7 +4119,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Sort/src/main/java/Sort.java" />
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/Sort/src/main/java/DisplayUtil.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -4142,7 +4130,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="567">
-            <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+            <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
           </first_editor>
           <second_editor />
         </state>
@@ -4151,7 +4139,7 @@
     <entry file="file://$PROJECT_DIR$/Sort/src/main/java/SortsUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
-          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -4165,7 +4153,7 @@
     <entry file="file://$PROJECT_DIR$/Sort/src/main/java/SelectionSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
-          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -4183,10 +4171,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Sort/src/main/java/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Sort/src/main/java/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        <state relative-caret-position="260">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datastructures/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
